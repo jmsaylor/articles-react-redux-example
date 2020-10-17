@@ -21,7 +21,7 @@ class ConnectedForm extends Component {
     handleChange(event) {
       this.setState({[event.target.id]:event.target.value})
     }
-    
+
     handleSubmit(event){
         event.preventDefault();
         const {title} = this.state;
